@@ -1,31 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <title>Is Your Birthday Number Lucky</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="head">Is Your Birthday Lucky</h1>
 
-   <div class="container">
-    <h1 class="head">Is Your Birthday Lucky</h1>
+      <label for="date-input">Date Of Birth</label>
+      <input class="date-input" type="date" />
 
-    <label for="date-input">Date Of Birth</label>
-    <input class="date-input" type="date" />
+      <label for="">Lucky Number</label>
+      <input class="input-number" type="number" />
 
+      <button class="check-result">Check Result</button>
+      <p class="result"></p>
+    </div>
     
-    <label for="">Lucky Number</label>
-    <input class="input-number" type="number" />
+    <footer class="main-footer">
+      <div class="footer-content">
+        <p class="footer-text">Made with ❤ by Abhay <br /></p>
 
-    <button class="check-result">Check Result</button>
-    <p class="result"></p>
-
-   </div>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/abhaymishr/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a href="https://github.com/abhaymishr" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+          
+        </div>
+      </div>
+    </footer>
     <script src="./index.js"></script>
-    
-
-    
-</body>
+  </body>
 </html>
